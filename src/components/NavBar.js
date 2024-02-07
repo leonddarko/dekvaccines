@@ -24,7 +24,6 @@ export default function NavigationBar() {
 
           <div className="d-none d-lg-block d-flex justify-content-center">
             <div className="navbar-nav">
-
               <Link href="/" legacyBehavior>
                 <a className="nav-link rounded-2 me-2 align-self-center">
                   Home
@@ -36,7 +35,6 @@ export default function NavigationBar() {
                   Contact DEK Vaccines
                 </a>
               </Link>
-
 
               <li className="nav-item dropdown">
                 <a
@@ -89,11 +87,12 @@ export default function NavigationBar() {
                   </li>
                 </ul>
               </li>
-
             </div>
           </div>
+
           <button
-            className="navbar-toggler bg-light rounded-pill border-primary shadow-sm"
+            style={{ border: "1px solid #02B8F1" }}
+            className="navbar-toggler bg-light rounded-pill shadow-sm align-self-end"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasNavbar"

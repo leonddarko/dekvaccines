@@ -73,7 +73,7 @@ html {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #222222;
+  background: #02B8F1;
 }
 
 .material-symbols-outlined {
